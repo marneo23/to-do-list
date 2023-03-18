@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+<div class="aligner">
+        <header>
+            <h1>Organizador de Tareas</h1>
+        </header>
+        
+        <main>
+            
+            <section class="inputSection">
+               
+                <form id="newTask">
+                    
+                    <h2>Nueva tarea</h2>
+                    
+                    <div class="newTaskDiv">
+            
+                    <input
+                    type="text"
+                    id="newTaskInput"
+                    placeholder="Escribir una tarea"
+                    />
+                    <button id="newTaskButton" class="add">
+                        
+                    </button>
+                </div>
+                </form>
+                
+                <!--Aviso oculto por si el usuario no llena el input-->
+                <div class="emptyAlert hidden" id="emptyTask">
+                    La tarea no puede estar vacía
+                </div>
+                
+            </section>
+            
+            <section class="taskSection">
+                <h2>
+                    Tareas:
+                </h2>
+                <div id="tasks">
+               
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        
+        <script src="index.js"></script>
+    </div>
+    </body>
+    </html>
+    
